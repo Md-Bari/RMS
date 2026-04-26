@@ -1,0 +1,142 @@
+import type { MenuItemDTO } from "@/lib/types";
+
+export const sampleMenuItems: MenuItemDTO[] = [
+  {
+    id: "menu-1",
+    name: "Citrus Flame Chicken Bowl",
+    description: "Char-grilled chicken, turmeric rice, citrus slaw, herb yogurt, and roasted peppers.",
+    price: 16.5,
+    category: "Food",
+    image:
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80",
+    imageUrl:
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80",
+    tags: ["Balanced", "High Protein"],
+    dietaryLabels: ["Halal", "Healthy"],
+    nutritionCalories: 540,
+    nutritionProtein: 38,
+    nutritionCarbs: 44,
+    spicy: true,
+    vegetarian: false,
+    vegan: false,
+    halal: true,
+    glutenFree: true,
+    available: true,
+    healthScore: 88
+  },
+  {
+    id: "menu-2",
+    name: "Garden Harvest Flatbread",
+    description: "Wood-fired flatbread with basil pesto, heirloom tomatoes, ricotta, and arugula.",
+    price: 14,
+    category: "Food",
+    image:
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=900&q=80",
+    imageUrl:
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=900&q=80",
+    tags: ["Vegetarian", "Fresh"],
+    dietaryLabels: ["Vegetarian"],
+    nutritionCalories: 470,
+    nutritionProtein: 18,
+    nutritionCarbs: 52,
+    spicy: false,
+    vegetarian: true,
+    vegan: false,
+    halal: true,
+    glutenFree: false,
+    available: true,
+    healthScore: 82
+  },
+  {
+    id: "menu-3",
+    name: "Velvet Mango Cooler",
+    description: "Fresh mango puree, sparkling water, mint, and lime over crushed ice.",
+    price: 7.5,
+    category: "Drinks",
+    image:
+      "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=900&q=80",
+    imageUrl:
+      "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=900&q=80",
+    tags: ["Refreshing", "Signature"],
+    dietaryLabels: ["Vegan", "Gluten-Free"],
+    nutritionCalories: 120,
+    nutritionProtein: 1,
+    nutritionCarbs: 28,
+    spicy: false,
+    vegetarian: true,
+    vegan: true,
+    halal: true,
+    glutenFree: true,
+    available: true,
+    healthScore: 76
+  },
+  {
+    id: "menu-4",
+    name: "Midnight Cocoa Tart",
+    description: "Dark chocolate ganache tart with sea salt flakes and berry compote.",
+    price: 9.5,
+    category: "Desserts",
+    image:
+      "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?auto=format&fit=crop&w=900&q=80",
+    imageUrl:
+      "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?auto=format&fit=crop&w=900&q=80",
+    tags: ["Decadent", "Chef's Pick"],
+    dietaryLabels: ["Vegetarian"],
+    nutritionCalories: 390,
+    nutritionProtein: 6,
+    nutritionCarbs: 34,
+    spicy: false,
+    vegetarian: true,
+    vegan: false,
+    halal: true,
+    glutenFree: false,
+    available: true,
+    healthScore: 59
+  },
+  {
+    id: "menu-5",
+    name: "Ember Tofu Noodles",
+    description: "Rice noodles, glazed tofu, bok choy, sesame crunch, and chili-garlic broth.",
+    price: 15,
+    category: "Food",
+    image:
+      "https://images.unsplash.com/photo-1617093727343-374698b1b08d?auto=format&fit=crop&w=900&q=80",
+    imageUrl:
+      "https://images.unsplash.com/photo-1617093727343-374698b1b08d?auto=format&fit=crop&w=900&q=80",
+    tags: ["Plant-Based", "Spicy"],
+    dietaryLabels: ["Vegan", "Spicy"],
+    nutritionCalories: 510,
+    nutritionProtein: 21,
+    nutritionCarbs: 58,
+    spicy: true,
+    vegetarian: true,
+    vegan: true,
+    halal: true,
+    glutenFree: true,
+    available: true,
+    healthScore: 84
+  },
+  {
+    id: "menu-6",
+    name: "Vanilla Cloud Cheesecake",
+    description: "Silky vanilla cheesecake with almond crust and caramelized peach slices.",
+    price: 10,
+    category: "Desserts",
+    image:
+      "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=900&q=80",
+    imageUrl:
+      "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=900&q=80",
+    tags: ["Creamy", "Seasonal"],
+    dietaryLabels: ["Vegetarian", "Gluten-Free"],
+    nutritionCalories: 410,
+    nutritionProtein: 7,
+    nutritionCarbs: 30,
+    spicy: false,
+    vegetarian: true,
+    vegan: false,
+    halal: true,
+    glutenFree: true,
+    available: true,
+    healthScore: 63
+  }
+];
